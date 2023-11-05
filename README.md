@@ -61,3 +61,8 @@ syn6288.send_message(SYN6288_MESSAGE_A)
 syn6288.send_ring(SYN6288_RING_A)
 ```
 具体使用方式请参考example文件内容，在此不做详细介绍。
+## 参考资料
+1. [SYN6288技术文档](https://github.com/yusuhua/micropython-syn6288/blob/main/datasheet/syn6288_datasheet.pdf)
+2. https://blog.csdn.net/jd3096/article/details/130257320 （作者：三十岁开始学编程的大叔）
+3. https://github.com/TPYBoard/TPYBoard_lib （14.SYN6288 --- SYN6288语音合成模块）
+4. https://github.com/hepingood/syn6288 （C/C++版本）
