@@ -34,7 +34,7 @@ from gb2312 import Gb2312
 uart1 = UART(1, baudrate=9600, bits=8, parity=None, stop=1, tx=43)
 print(gb2312.encode("中文"))
 ```
-转码问题解决了，驱动也就少了一多半的难度了，只需要参考datasheet、基于C/C++的SYN6288驱动以及网上分享的一些解决方案来整合一下即可。
+转码问题解决了，驱动SYN6288也就少了一半的难度了，只需要参考datasheet、基于C/C++的SYN6288驱动以及网上分享的一些解决方案来整合一下即可。
 
 SYN6288语音芯片的micropython驱动使用方式如下，默认使用GB2312编码：
 ```Python
