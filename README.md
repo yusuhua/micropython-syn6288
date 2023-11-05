@@ -28,7 +28,6 @@ e28095:a1aa.e28096:a1ac.e28098:a1ae.e28099:a1af.e2809c:a1b0.e2809d:a1b1.e280a6:a
 
 因此，我们转码时可以这样做：
 ```Python
-from machine import UART
 from gb2312 import Gb2312
 
 gb2312 = Gb2312()
