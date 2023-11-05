@@ -31,7 +31,7 @@ e28095:a1aa.e28096:a1ac.e28098:a1ae.e28099:a1af.e2809c:a1b0.e2809d:a1b1.e280a6:a
 from machine import UART
 from gb2312 import Gb2312
 
-uart1 = UART(1, baudrate=9600, bits=8, parity=None, stop=1, tx=43)
+gb2312 = Gb2312()
 print(gb2312.encode("中文"))
 ```
 转码问题解决了，驱动SYN6288也就少了一半的难度了，只需要参考datasheet、基于C/C++的SYN6288驱动以及网上分享的一些解决方案来整合一下即可。
