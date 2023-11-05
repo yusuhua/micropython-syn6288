@@ -52,11 +52,11 @@ syn6288.sync()
 syn6288.send_synthesis(gb2312.encode('2013-10-23'))
 # 合成语音带背景音乐1
 syn6288.send_synthesis(gb2312.encode("春眠不觉晓，处处闻啼鸟；夜来风雨声，花落知多少。"), mode=SYN6288_MODE_BACKGROUND_1)
-# 播放第一个提示音
+# 播放提示音1
 syn6288.send_sound(SYN6288_SOUND_A)
-# 播放第一个和弦提示音
+# 播放和弦提示音1
 syn6288.send_message(SYN6288_MESSAGE_A)
-# 播放第一首和弦乐曲
+# 播放和弦乐曲1
 syn6288.send_ring(SYN6288_RING_A)
 ```
 具体使用方式请参考example文件内容，在此不做详细介绍。
